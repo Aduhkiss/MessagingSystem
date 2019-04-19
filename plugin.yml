@@ -1,0 +1,14 @@
+name: InfinityMessagingSystem
+main: club.infinitygames.messaging.MessagingSystem
+version: 1.0
+author: ["AtticusTheCoder"]
+commands:
+  message:
+    aliases: ["m", "dm", "message", "pm", "w", "whisper"]
+    description: Send a private message to another player
+  socialspy:
+    aliases: ["ss"]
+    description: Allows you to see players messages
+  toggledm:
+    aliases: ["togglepm", "tpm"]
+    description: Allows you to toggle private messages
