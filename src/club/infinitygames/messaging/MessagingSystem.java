@@ -20,7 +20,7 @@ public class MessagingSystem extends JavaPlugin {
 		getCommand("toggledm").setExecutor(new ToggleDMCommand());
 		
 		// then register the event handlers
-		Bukkit.getPluginManager().registerEvents(new PlayerJoin(), this);
+		//Bukkit.getPluginManager().registerEvents(new PlayerJoin(), this);
 		
 	}
 	
